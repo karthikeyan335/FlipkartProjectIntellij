@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="74.817">
+<testcase classname="To valid the booking functionality of flipkart application" name="To vaild the product successfully ordered" time="74.346">
+<system-out><![CDATA[Given The user should be in flipkart homepage...............................passed
+When The user should click the login button.................................passed
+And User should enter the valid phone number or email and click request OTP button.passed
+Then The user should wait for one minutes to enter otp and automatically enter to home page.passed
+And The user should verify the username in home page........................passed
+When The user should enter the product name and click search button.........passed
+And User should verify the relevent products came in the search page........passed
+Then User click the first product of showed in page and enter the pincode...passed
+And User click the add to cart button and moved in to the place order page and click it.passed
+Then User enter the delivery address and click save and deliver here button.passed
+And User enter email address for order confirmation and click continue button.passed
+Then User choose to enter the payment details and click place order button..passed
+And User logout the flipkart application and verify it......................passed
+]]></system-out>
+</testcase>
+</testsuite>
